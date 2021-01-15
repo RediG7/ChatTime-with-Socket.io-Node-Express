@@ -1,0 +1,18 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "supervisor server"
+  },
+  "keywords": [],
+  "author": "Redi Guleksi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.0.5"
+  }
+}
